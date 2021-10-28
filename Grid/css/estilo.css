@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#contenedor{
+    display: grid;
+    grid-template-columns: 10vw auto auto;
+    grid-template-rows: 10vh auto 10vh;
+    width: 100vw;
+    height: 100vh;
+}
+
+#contenedor div {
+    text-align: center;
+    color: rgb(41, 39, 39);
+}
+
+#hijo1{
+    grid-column: 1 / 4 ;
+}
+
+#hijo5{
+    grid-column: 1 / 4 ;
+}
+
+#hijo2{
+    grid-column: 1 / 4 ;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    flex-wrap: wrap;
+}
+
+img{
+    border: 10px solid white;
+    width: 50vh;
+}
+
+
+

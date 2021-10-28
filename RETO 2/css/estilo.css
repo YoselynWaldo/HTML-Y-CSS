@@ -1,0 +1,93 @@
+html, body, #centrado, #main, #vertical-main {
+    height: 100%;
+}
+#vertical-middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+#contenedor {
+    border: 1px solid #dbdce0;
+    padding: 48px 40px 36px;
+    display: inline-block;
+    height: 400px;
+    border-radius: 5px;
+}
+.center {
+    text-align: center;
+}
+.center > span {
+    display: inline-block;
+}
+#main {
+    text-align: center;
+}
+#centrado {
+    display: inline-block;
+}
+#vertical-main {
+    display: table;
+}
+.sign-in {
+    color: #202124;
+    font-size: 24px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+
+}
+.google-account {
+    font-size: 16px;
+    color: #202124;
+    font-weight: 400;
+    font-family: 'Noto Sans', sans-serif;
+}
+.inp-email {
+    border: 1px solid #dbdce0;
+    font-size: 16px;
+    padding: 10px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #202124;
+    font-weight: 500;
+    width: 90%;
+    border-radius: 5px;
+}
+.spn-forgot {
+    color: #1a73e8;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.txt-left {
+    text-align: left;
+}
+
+.not-computer {
+    color: #5f6368;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.display-block{
+    display: block;
+}
+
+.create-account {
+    color: #1a73e8;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    padding: 10px 0px 11px;
+    float:left;
+}
+.next {
+    background-color: #1a73e8;
+    color: #f3f8fe;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 10px;
+    float:right;
+}
+.m-t-3{
+    margin-top: 3%;
+}
+.m-t-10{
+    margin-top: 10%;
+}

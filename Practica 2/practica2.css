@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+    font-size: 23px;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 4.5rem;
+    font-family: sans-serif;
+    line-height: 1.5;
+    height: 400px;
+    background-image: url(https://cdn.glitch.com/a3503e46-657d-4a9e-b750-674707084a46%2Fswati-h-das-LirdKxOXi40-unsplash.jpg?v=1628717852766);
+    background-size: cover;
+    backgroud-position: center;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+  color: white
+  }
+  button {
+      color: white;
+      background-color: black;
+      box-sizing: border-box;
+      margin: 0em;
+      font: 600 12px Verdana;
+      padding: 1px 6px;
+      border-width: 2px;
+      border-style: outset;
+      border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+      border-image: initial;
+  }
+  .card-img-top{ display: flex;}

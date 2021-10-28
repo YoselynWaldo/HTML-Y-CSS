@@ -1,0 +1,158 @@
+
+#im{
+width: 100%;
+margin-bottom: 1.5vh;
+display: block;
+border-radius: 3vh;
+
+
+}
+img:hover{
+  
+    cursor:zoom-in;
+    opacity: 0.4;
+   
+}
+#logopinterest:hover{
+  
+    cursor:pointer;
+    opacity: 0.3;
+   
+}
+a:hover{
+    cursor:pointer;
+    opacity: 0.5; 
+}
+path:hover{
+    cursor:pointer;
+    opacity: 0.5;
+}
+
+
+.board{
+columns:7 20vh;
+margin-top: 0.5vh!important;
+column-gap: 0.5rem;
+margin-left: 5vh;
+margin-right: 5vh;
+}
+.header{
+    columns: 1!important;
+    }
+    
+#logopinterest{
+    height:5vh;
+    width:5vh;
+    border-radius: 8vh;
+    background-size: 12vh;
+}
+.nav-link.active{
+    border-radius: 5vh;
+    background-color: black;
+    color: white!important;
+    font-weight: bold;
+    width: 8vh;
+    height:6vh;
+}
+.nav-link{
+    border-radius: 5vh;
+    background-color: rgb(250, 248, 248);
+    color: rgb(0, 0, 0)!important;
+    font-weight: bold;
+    width: 7vh;
+    height:6vh;
+}
+.navbar{
+    padding-top: 0.5rem!important;
+    padding-bottom: 0.5rem!important;
+    flex-direction: row!important;
+}
+.form-control{
+    width: 125vh!important;
+    border-radius: 4vh!important;
+    height: 2.5rem!important;
+    background-color: rgba(243, 243, 243, 0.959)!important;
+}
+
+
+
+@media (min-width: 200px) and (max-width: 380px){
+    #navegador  {  width:100%!important;float: left;
+  clear: both;}
+  .navbar-nav{
+    flex-direction: row!important;
+  }
+  .navbar-brand{
+    flex-direction: row!important;
+  }
+
+  .form-control{
+      width: 35vh!important;
+  }
+}
+@media (min-width: 381px) and (max-width: 750px){
+    #navegador  {  width:100%!important;float: left;
+  clear: both;}
+  .navbar-nav{
+    flex-direction: row!important;
+  }
+  .navbar-brand{
+    flex-direction: row!important;
+  }
+
+  .form-control{
+      width: 45vh!important;
+  }
+}
+@media (min-width: 751px) and (max-width: 991px){
+    #navegador  {  width:100%!important;float: left;
+  clear: both;}
+  .navbar-nav{
+    flex-direction: row!important;
+  }
+  .navbar-brand{
+    flex-direction: row!important;
+  }
+
+  .form-control{
+      width: 75vh!important;
+      
+      
+  }
+}
+.button-image{
+    display:inline-block;
+    position:relative;
+    }
+    
+    .button-image a{
+    position: fixed;
+    bottom:5em;
+    right:4em;
+    background-color:black;
+    border-radius:2.5em;
+    color:white;
+    text-transform:bold;
+    padding:0.5em 0.5em;
+    }
+    .button-container a:hover{
+        background-color:black;
+        cursor:pointer;
+        color:white;
+        }
+    .button-image2{
+    display:inline-block;
+    
+    }
+    
+    .button-image2 a{
+    position: absolute;
+    bottom:5em;
+    right:4em;
+    background-color:black;
+    border-radius:2.5em;
+    color:white;
+    text-transform:bold;
+    padding:0.5em 0.5em;
+    }
+    

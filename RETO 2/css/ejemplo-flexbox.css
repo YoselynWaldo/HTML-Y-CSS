@@ -1,0 +1,26 @@
+body{
+
+    margin:0px;
+    padding: 0px;
+}
+section{
+    background-color: #ccc;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+
+#mi_articulo{
+    display: flex;
+    align-items: center;
+    height: 500px;
+    justify-content: center;
+}
+#img-4{
+    order:-1;
+    opacity: 0.5;
+}
+#img-5{
+    order:-1;
+}
